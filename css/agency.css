@@ -348,7 +348,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content p.item-intro {
-  font-size: 16px;
+  font-size: 30px;
   font-style: italic;
   margin: 20px 0 30px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -469,7 +469,8 @@ header.masthead .intro-text .intro-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  /*border: 7px solid #e9ecef;*/
+  border: 2px solid #fed136;
   border-radius: 100%;
   background-color: #fed136;
 }
@@ -507,10 +508,19 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
+  font-size: 30px;
+  white-space: nowrap;
+  text-align: center;
 }
 
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+}
+
+.timeline .timeline-heading h6.subheading {
+  font-style: italic;
+  white-space: nowrap;
+  font-weight: normal;
 }
 
 .timeline .timeline-body > ul,
