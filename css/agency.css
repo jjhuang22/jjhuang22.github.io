@@ -510,7 +510,6 @@ header.masthead .intro-text .intro-heading {
   color: inherit;
   font-size: 30px;
   white-space: nowrap;
-  text-align: center;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -521,6 +520,7 @@ header.masthead .intro-text .intro-heading {
   font-style: italic;
   white-space: nowrap;
   font-weight: normal;
+  font-size: 18px;
 }
 
 .timeline .timeline-body > ul,
