@@ -726,14 +726,15 @@ font-size: 11px;
   color:black;
   border:2px solid black;
   border-radius:100%!important;
-  background:0 0;*/
+  background:0 0;
 }
 
-.btn-circle:focus,.btn-circle:hover{
+.btn-circle:hover{
   color:black;
   outline:0;
   background: white;
 }
+
 
 /*.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
