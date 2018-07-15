@@ -528,19 +528,14 @@ figure.effect-bubba:hover p {
 4.6. Team
 --------------------*/
 
-/*.rowflex {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+.rowflex {
     overflow: hidden;
 }
 
-.rowflex .team-item {
-    flex; 1;
-    text-align: center;
-    background-color: #fff;
-
-}*/
+[class*="team-item"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
 
 .team-item {
     text-align: center;
@@ -569,17 +564,13 @@ figure.effect-bubba:hover p {
 }
 
 .team-item p {
+    /*text-align: center;*/
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 350;
     color: #9C9C9C;
-    padding: 5px 10px 20px 10px;*/
+    padding: 5px 10px 20px 10px;
 }
-
-.team-image img {
-    width: 250px;
-    height: 166.92px;
-}
-
+    
 
 /*--------------------
 4.7. Contacts
