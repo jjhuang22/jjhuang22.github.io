@@ -570,7 +570,13 @@ figure.effect-bubba:hover p {
     color: #9C9C9C;
     padding: 5px 10px 20px 10px;
 }
-    
+
+.team-image img {
+    width: 300px;
+    height: 200px;
+    object-fit: scale-down;
+}
+   
 
 /*--------------------
 4.7. Contacts
