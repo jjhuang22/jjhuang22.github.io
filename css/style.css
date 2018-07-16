@@ -37,8 +37,9 @@ Import Google Fonts
 --------------------*/
 
 body {
-  margin: 0px;
+    margin: 0px;
     font-family: "Open Sans", Sans-serif;
+    position: relative;
 }
 
 h1,
@@ -98,21 +99,22 @@ section {
     padding: 0px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #fec503
+	/*color: #fec503*/
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	/*background-color: #fed136;*/
+	/*border-color: #fed136*/
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	/*background-color: #fed136*/
 }
+
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
     font-size: 16px;
@@ -121,19 +123,28 @@ section {
 	letter-spacing: 1px;
 	color:#fff
 }
-.navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
+
+.navbar-default .nav li a:hover {
 	color: #fed136;
 	outline: 0
 }
 
+.navbar-default .nav li a:focus {
+    color: white;
+    outline: 0;
+}
+
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
-	color: #fff;
 	background-color: #fed136
 }
-.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
-	color: #fff;
+
+.navbar-default .navbar-nav>.active>a:hover {
 	background-color: #fec503
+}
+
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #fec503;
 }
 
 @media (min-width:768px) {

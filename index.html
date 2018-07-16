@@ -24,55 +24,41 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body id="page-top">
+	<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="30">
 		<!-- Navigation -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header page-scroll">
+				<div class="navbar-header js-scroll-trigger">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand page-scroll" href="#page-top">
-						<!-- <img src="images/logo.png" alt="Lattes theme logo"> -->
+					<a class="navbar-brand js-scroll-trigger" href="#page-top">
 					</a>
 				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="hidden">
-							<a href="#page-top"></a>
+							<a class="js-scroll-trigger" href="#page-top"></a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#about">About</a>
+							<a class="js-scroll-trigger" href="#about" onclick="this.blur();">About</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#team">Experience</a>
+							<a class="js-scroll-trigger" href="#team">Experience</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#portfolio">Projects</a>
+							<a class="js-scroll-trigger" href="#portfolio">Projects</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="https://www.linkedin.com/in/jonathan-h-294681112/" target="_blank">LinkedIn</a>
+							<a class="js-scroll-trigger" href="https://www.linkedin.com/in/jonathan-h-294681112/" target="_blank">LinkedIn</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="https://www.github.com/jjhuang22" target="_blank">Github</a>
+							<a class="js-scroll-trigger" href="https://www.github.com/jjhuang22" target="_blank">Github</a>
 						</li>
-						<!-- <li>
-							<a class="page-scroll" href="#services">Services</a>
-						</li> -->
-						<!-- <li>
-							<a class="page-scroll" href="#portfolio">Portfolio</a>
-						</li> -->
-						<!-- <li>
-							<a class="page-scroll" href="#team">Team</a>
-						</li> -->
-						<!-- <li>
-							<a class="page-scroll" href="#contact">Contact</a>
-						</li> -->
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -133,25 +119,6 @@
 							<p>Java, Python, C++, HTML/CSS, Matlab, Mathematica</p>
 						</div>
 					</div>
-
-					<!-- about module -->
-					<!-- <div class="col-md-3 text-center">
-						<div class="mz-module-about">
-							<i class="fa fa-camera-retro ot-circle"></i>
-							<h3>Photography</h3>
-							<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-						</div>
-					</div> -->
-					<!-- end about module -->
-					<!-- about module -->
-					<!-- <div class="col-md-3 text-center">
-						<div class="mz-module-about">
-							<i class="fa fa-photo ot-circle"></i>
-							<h3>UI/UX Design</h3>
-							<p> Itaque earum rerum hic tenetur a sapiente, ut aut reiciendis maiores</p>
-						</div>
-					</div> -->
-					<!-- end about module -->
 				</div>
 			</div>
 			<!-- /.container -->
@@ -163,7 +130,6 @@
 						<div class="section-title">
 							<h2>Experience</h2>
 							</br>
-							<!-- <p>A creative agency based on Candy Land, ready to boost your business with some beautifull templates. Lattes Agency is one of the best in town see more you will be amazed.</p> -->
 						</div>
 					</div>
 				</div>
