@@ -115,6 +115,7 @@ section {
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
+    font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -642,6 +643,9 @@ footer div ul.social-buttons li a {
   transition: all 0.3s;
   color: white;
   border-radius: 100%;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
   outline: none;
   background-color: #212529;
   color: white;
