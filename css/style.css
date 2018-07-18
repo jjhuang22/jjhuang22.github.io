@@ -254,6 +254,13 @@ header .intro-text .intro-heading {
     font-weight: 300;
     line-height: 25px;
     margin: 20px 100px 60px 100px;
+    margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+    .section-title p {
+        margin: auto;
+    }
 }
 
 /*--------------------
@@ -269,6 +276,7 @@ header .intro-text .intro-heading {
     text-align: center;
     float: center;
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 
@@ -302,15 +310,15 @@ height: 95px;
 }
 
 #about-image {
-    float: left;
+    display: block;
+    margin: auto;
     border-radius: 50%;
     border: 5px solid #999375;
-    margin: 0px 50px;
-    width: auto
-    height: auto
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 220px;
+    max-height: 220px;
+    margin-bottom: 20px;
 }
+
 
 /*--------------------
 4.2. Skills
